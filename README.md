@@ -36,7 +36,7 @@ This is the first image!!!
 Current Dir is:  /app
 
 
-How it works
+How it works:
 The Dockerfile specifies that the container should use the official Python image as the base image.
 The WORKDIR instruction sets the working directory inside the container to /app.
 The COPY instruction copies the contents of the current directory (where the Dockerfile and app.py are located) into the /app directory inside the container.
